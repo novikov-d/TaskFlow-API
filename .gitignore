@@ -1,0 +1,18 @@
+# Локальное окружение и секреты
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python и тестирование
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Редакторы и ОС
+.DS_Store
+.idea/
+.vscode/
